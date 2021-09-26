@@ -1,18 +1,33 @@
-# Getting Started with Create React App
+# Getting Started with Create React with Redux App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Creating React App
 
-In the project directory, you can run:
+`npx create-react-app reduxapp`
 
 ### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Adding Redux to app
+
+`npm i redux react-redux` or `yarn add redux react-redux`
+
+This will add redux and react redux to your app.
+
+## Creating files and folder at root
+
+### Folders:
+
+- actions - Declare all the actions
+- reduccrs - Actual Implementation and Export the functions
+- store.js - Containing all the action to be performed. (centralaised store)
+
+## Done!
+
+Now work on project! Take refrence from this project.
 
 ### `yarn test`
 
